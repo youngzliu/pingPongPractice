@@ -13,3 +13,7 @@ export function pingPong(goal) {
   }
   return output;
 }
+
+export function PingPongBall(radius){
+  this.radius = radius;
+}
